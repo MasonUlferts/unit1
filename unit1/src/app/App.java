@@ -2,10 +2,17 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("1. Creed");
-        System.out.println("2. star wars");
-        System.out.println("3. black panther");
-        System.out.println("4. end game");
-        System.out.println("5. knives out");
+      boolean liveincalifornia = false;
+      System.out.println(liveincalifornia);
+      int myfavnum = 4756;
+      System.out.println(myfavnum);
+      byte numofpens = 7;
+      System.out.println(numofpens);
+      short people = 3000;
+      System.out.println(people);
+     
+      char firstletterofname = 'm';
+      System.out.println(firstletterofname);
+
     }
 }
