@@ -2,17 +2,9 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-      boolean liveincalifornia = false;
-      System.out.println(liveincalifornia);
-      int myfavnum = 4756;
-      System.out.println(myfavnum);
-      byte numofpens = 7;
-      System.out.println(numofpens);
-      short people = 3000;
-      System.out.println(people);
-     
-      char firstletterofname = 'm';
-      System.out.println(firstletterofname);
-
+     String myname = "mason ulferts";
+     System.out.println(myname);
+    String madlib = "the dog was pet by ___ this dogs name was ____ he is an ___ and is very ____";
+    System.out.println(madlib);
     }
 }
