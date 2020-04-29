@@ -7,10 +7,10 @@ public class App {
  
         Scanner input = new Scanner(System.in);
        
-        System.out.println("please enter your first name.");
+        System.out.println("please enter password");
         String name = input.nextLine();
 
-        System.out.println("hello, " + name);
+        System.out.println("ACCESS GRANTED");
       
     }
  }
