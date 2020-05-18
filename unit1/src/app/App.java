@@ -5,27 +5,12 @@ import java.util.Scanner;
 public class App {
   
     public static void main(String[] args) throws Exception {
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Please enter a noun");
-        String enteredpassword = input.nextLine();
-
-        }
-        System.out.println("Please enter a name");
-        Scanner capitol = new Scanner(System.in);
-
-        String password = capitol.nextLine();
-
-        }
-        System.out.println("Please enter a verb");
-        Scanner year = new Scanner(System.in);{
-
-        }
-        Scanner adjective = new Scanner(System.in);
         
+      Person person1 = new Person();
+      Scanner input = new Scanner(System.in);
 
+      person1.name = "Bob";
 
-        
-      
+      System.out.println(person1.name);
     }
  }
